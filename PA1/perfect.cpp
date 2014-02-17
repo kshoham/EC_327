@@ -23,7 +23,6 @@ while (!cin.eof())
 		cout<<endl<<"Goodbye."<<endl;
 		return 0;
 	}
-	
 	if(is_perfect(x))
 	{
 		cout<<x<<" "<<"is perfect"<<endl;
@@ -32,24 +31,18 @@ while (!cin.eof())
 	{
 		cout<<x<<" "<<"is not perfect"<<endl;
 	}
-
 }
-
-//cout<<"Goodbye."<<endl;
-
 return 0;
 }
 
 
-//Establishing the function perfect
+//Establishing the function is_perfect
 bool is_perfect (long int n) 
 
 {
-
 //How to decide whether or not CIN is a Happy Number or not
 int sum=0;
 int z;
-
 
 	for (int i=1; i < n ; i++)
 	{
@@ -61,8 +54,7 @@ int z;
 		}
 	}
 
-
-//boolean logic for the function
+//Boolean logic for the function
 if (sum == n)
 
 	{

@@ -1,13 +1,10 @@
 #include <iostream>
-
-
 using namespace std;
 
 int main()
 {
 
 int x;
-
 
 //starting from 2 and cycling until 1000, this will find all the divisors of a number (not including itself) and then sum and print the result
 
@@ -20,16 +17,10 @@ for (int i=2; i<1001; i++)
 		if (x==0)
 		{
 			sum+=j;
-
 		}
-
 	}
-
 	cout<<sum<<endl;
-		
-	
 }
-
 
 return 0;
 	
